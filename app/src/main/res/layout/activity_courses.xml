@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/courses">
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center|start"
+        android:layout_marginLeft="9dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:padding="10dp"
+        android:elevation="75dp">
+
+        <ImageView
+            android:id="@+id/android"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:textColor="@color/learnstack"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:text="Android\nApplication\nDevelopment"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center|start"
+        android:layout_marginLeft="9dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:padding="10dp"
+        android:elevation="75dp">
+
+        <ImageView
+            android:id="@+id/java"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:textColor="@color/learnstack"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:text="Object Oriented Programming\nusing\nJAVA"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center|start"
+        android:layout_marginLeft="9dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:padding="10dp"
+        android:elevation="75dp">
+
+        <ImageView
+            android:id="@+id/python"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:textColor="@color/learnstack"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:text=" Programming 101\nusing\nPython"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center|start"
+        android:layout_marginLeft="9dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:padding="10dp"
+        android:elevation="75dp">
+
+        <ImageView
+            android:id="@+id/web"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:textColor="@color/learnstack"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:text=" Web Development\nusing\nPHP MySQL"/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center|start"
+        android:layout_marginLeft="9dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:padding="10dp"
+        android:elevation="75dp">
+
+        <ImageView
+            android:id="@+id/hacking"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:textColor="@color/learnstack"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:text=" Ethical Hacking\nand\nComputer Security"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center|start"
+        android:layout_marginLeft="9dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:padding="10dp"
+        android:elevation="75dp">
+
+        <ImageView
+            android:id="@+id/bigdata"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:textColor="@color/learnstack"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:text=" Big Data\n(Hadoop and\nSocial Media\nAnalytics"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center|start"
+        android:layout_marginLeft="9dp"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:padding="10dp"
+        android:elevation="75dp">
+
+        <ImageView
+            android:id="@+id/iot"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:textColor="@color/learnstack"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:text=" IoT\n(Internet of Things)"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
